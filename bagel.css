@@ -1,0 +1,57 @@
+
+img{
+    position:relative;
+    float:right;
+    animation: spin 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+div.relative{
+    position:relative;
+    left:40px;
+    bottom: 300px;
+}
+
+
+.waviy{
+    text-align: center;
+   
+}
+
+.waviy span{
+    position:relative;
+    display:inline-block;
+    font-size: 40px;
+    color:teal;
+    text-transform: uppercase;
+    animation: flip 6s infinite;
+    animation-delay: calc(.2s*var(--i))
+}
+
+
+.waviy span2{
+    position:relative;
+    display:inline-block;
+    padding: 10px;
+    font-size: 40px;
+    color:teal;
+    text-transform: uppercase;
+    animation: flip 6s infinite;
+    animation-delay: calc(.2s*var(--i))
+}
+@keyframes flip{
+    0%,80%{
+        transform: rotateY(360deg)
+    }
+    
+}
+
+

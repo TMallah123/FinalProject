@@ -1,0 +1,12 @@
+
+p.pink{
+    border: 2px solid violet;
+    border-radius: 5px;
+    padding:10px;
+}
+
+p.blue{
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    padding:10px;
+}
