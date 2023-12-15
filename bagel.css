@@ -58,25 +58,13 @@ div.relative{
 
 div.left{
     position:relative;
-    left:10px;
-    bottom: 500px;
+    left:6px;
+    bottom: 550px;
+}
+img.pickle{
+    position:relative;
+    left:7px;
+    bottom: 550px;
 }
 
-
-img.color{
-    position:left;
-    float:left;
-    animation: colorchange 2s infinite;
-    animation-timing-function: linear;
-
-}
-
-@keyframes colorchange {
-    from {
-        background-color:blueviolet;
-    }
-    to {
-       background-color:red;
-    }
-}
 
