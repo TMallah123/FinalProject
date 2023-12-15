@@ -4,8 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Outfit:wght@300&display=swap');
 
 body  {
+    
+    background-color:skyblue;
+    background-image: linear-gradient(skyblue 0%, deepskyblue 20%, teal 100%);
     color: black;
-    background-color:lightblue;
+   
 }
 
 .center{
@@ -49,6 +52,26 @@ p.indent {
 }
 div.margin{
     padding: 30px;
+}
+
+.button1{
+  border: none;
+    border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    
+}
+.button1{
+    background-color:lightpink
+}
+.button1:hover:not(.active) {
+  background-color: mediumpurple;
 }
 
 
