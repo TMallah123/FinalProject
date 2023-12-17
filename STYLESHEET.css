@@ -53,6 +53,10 @@ p.indent {
 div.margin{
     padding: 30px;
 }
+div.margin2{
+    padding: 200px;
+}
+
 
 .button1{
   border: none;
@@ -73,5 +77,27 @@ div.margin{
 .button1:hover:not(.active) {
   background-color: mediumpurple;
 }
-
-
+img.burger{
+   position:relative;
+    left:6px;
+    bottom: 450px;
+    
+}
+img.butter{
+   position:relative;
+   left:250px;
+    bottom: 280px;
+    
+}
+img.nuggs{
+   position:relative;
+    right:6px;
+    bottom: 250px;
+    
+}
+img.bacon{
+   position:relative;
+    left:380px;
+    bottom: 80px;
+    
+}

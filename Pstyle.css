@@ -9,4 +9,12 @@ p.blue{
     border: 2px solid dodgerblue;
     border-radius: 5px;
     padding:10px;
+   
+   
 }
+
+p.background{
+    background:white;
+    opacity:70%;
+}
+
